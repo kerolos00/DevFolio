@@ -1,0 +1,32 @@
+@media screen and (max-width: 991px) {
+
+    .hov-nav::after {
+        display: none;
+        border : solid 2px var(--main-color);
+    }
+
+    .hov-nav {
+        width      : fit-content;
+        margin-left: 50%;
+        padding    : 10px;
+    }
+
+    .hov-nav:hover {
+        border          : 1px solid var(--main-color);
+        text-align      : center;
+        background-color: #0077ff19;
+        border          : solid 1px var(--main-color);
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .counter {
+        height  : 100vh;
+        overflow: hidden;
+    }
+
+    .image-carousel {
+        height: 100vh;
+    }
+}
